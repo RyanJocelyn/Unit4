@@ -1,0 +1,92 @@
+h1 {
+  text-decoration: underline;
+}
+/* Placer ontario et les texts avec */
+.title img {
+  width: 10em;
+  height: 5em;
+}
+.title {
+  background-color: white;
+  text-align: right;
+  display: flex;
+  flex-direction: left;
+}
+#t {
+  font-size: 17px;
+}
+/*  */
+/* Placer les lien a la gauche */
+nav {
+  margin-left: 20em;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+  margin-right: 2em;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+nav a:hover {
+  color: #007bff;
+}
+/*  */
+/* hr, ligne pour couper */
+#hr {
+  color: red;
+  width: 10px;
+}
+/*  */
+/* Image de toronto et les figcaption*/
+figure img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1em;
+}
+figure:hover {
+  transform: scale(0.9);
+}
+figcaption {
+  position: relative;
+  bottom: 4.35em;
+  width: 95%;
+  padding: 1.5em;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  font-size: 24px;
+  opacity: 0.75;
+}
+figure:hover {
+  width: 94%;
+  border-radius: 1em;
+  transition: transform 500ms ease-in-out;
+}
+/*  */
+/*  */
+.top img {
+  height: 10em;
+  width: 10em;
+  border-radius: 5em 5em;
+}
+.left {
+  background-color: lightgray;
+  text-align: left;
+}
+.top {
+  background-color: lightgray;
+  text-align: right;
+  display: flex;
+  flex-direction: left;
+}
+.right {
+  flex-direction: right;
+}
+/*  */
