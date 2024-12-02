@@ -1,0 +1,216 @@
+h1 {
+  text-decoration: underline;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* header left  */
+header {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(181, 224, 178);
+  top: 0;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  box-shadow: 0 0.3125em 0.5em -0.5em rgba(0, 0, 0, 0.75);
+}
+
+.header_left {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header_left img {
+  width: 3.125em;
+  height: 3.125em;
+}
+
+.header_input {
+  display: flex;
+  align-items: center;
+  background-color: #eff2f5;
+  padding: 0.625em;
+  margin-left: 0.625em;
+  border-radius: 2em;
+}
+
+.header_input .material-icons {
+  border: none;
+  background-color: transparent;
+  padding-top: 0.1875em;
+}
+
+.header_input input {
+  border: none;
+  background-color: transparent;
+  outline-width: 0;
+}
+
+/*  header middle */
+.header_center {
+  align-items: center;
+  display: flex;
+  margin-right: 3em;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 1em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 45px;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+/* header right */
+.header_right {
+  display: flex;
+  align-items: center;
+}
+
+.header_right img {
+  border-radius: 100%;
+  width: 3.75em;
+  height: 3.75em;
+  margin-right: 0.625em;
+}
+
+.header_right h4 {
+  border-radius: 0.625em;
+  font-size: 1em;
+  align-items: center;
+  border-bottom: none;
+  margin-top: 0.5em;
+}
+
+.header_right h4:hover {
+  background-color: #eff2f5;
+  border-radius: 0.625em;
+  align-items: center;
+  border-bottom: none;
+  margin-top: 0.5em;
+  padding: 0.625em;
+}
+
+/* MAIN BODY */
+/* MENU LEFT */
+.MenuG {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: 1.5625em 0.625em;
+}
+
+.MenuGauche {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em;
+  margin: 0.5em 0;
+  border-radius: 0.625em;
+  transition: background-color 0.3s;
+}
+
+.MenuGauche:hover {
+  background-color: lightgray;
+}
+
+.MenuGauche span {
+  margin-right: 1em;
+}
+
+.MenuGauche h4 {
+  font-size: 1.5625em;
+}
+
+/* Images and Text Bottom */
+.content {
+  display: flex;
+}
+
+.Images_And_Bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  width: 80%;
+}
+
+.Les__Images {
+  display: flex;
+  gap: 1em;
+}
+
+figure {
+  position: relative;
+  margin: 0;
+}
+
+.Mes_images {
+  width: 10em;
+  height: 20em;
+  border-radius: 0.625em;
+  box-shadow: 0 0.4em 1em -0.95em rgba(0, 0, 0, 0.75);
+  transition: transform 0.3s;
+}
+
+.Mes_images:hover {
+  transform: scale(1.07);
+}
+
+figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 100%;
+  padding: 0.5em;
+  border-radius: 0 0 0.625em 0.625em;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.Text_bas,
+.image_bas {
+  margin: 2em auto;
+  display: block;
+  text-align: center;
+}
+
+.Text_bas {
+  width: 80%;
+  height: 4em;
+  padding: 0.5em 1em;
+  font-size: 1.3125em;
+  font-family: cursive;
+  color: white;
+  border-radius: 1em;
+  background-color: rgb(125, 125, 216);
+}
+.image_bas {
+  width: 25%;
+  margin-left: 12em;
+  margin-top: 1em;
+  border-radius: 35%;
+  background-color: white;
+  box-shadow: 0px 0.4em 0.9em -0.9em rgba(0, 0, 0, 0.75);
+  animation: flotte 2000ms linear infinite;
+}
